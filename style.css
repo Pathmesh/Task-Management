@@ -99,3 +99,42 @@ ul li span:hover{
     background: #edeef0;
     border-radius: 50%;
 }
+
+/* 🌐 Responsive design for mobile screens */
+@media screen and (max-width: 600px) {
+  .todo-app {
+    width: 90%;
+    margin: 40px auto 20px;
+    padding: 25px 20px 50px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 10px;
+    border-radius: 15px;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  ul li {
+    font-size: 16px;
+    padding: 10px 8px 10px 45px;
+  }
+
+  ul li span {
+    top: 8px;
+    right: 5px;
+  }
+}
